@@ -23,11 +23,17 @@ The project includes:
 🛠️ Technologies Used
 
 Python
+
 Jupyter Notebook
+
 Pandas
+
 NumPy
+
 Matplotlib
+
 Seaborn
+
 Scikit-learn
 
 📊 Project Workflow
