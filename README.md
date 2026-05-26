@@ -1,49 +1,111 @@
-# Delhi-Air-Quality-PM2.5-Analysis-Using-Machine-Learning
-Machine learning and data analysis project on Delhi PM2.5 air pollution trends (2020–2023) using Python, visualization, and predictive analytics.
+🌍 Delhi Air Quality Analysis and PM2.5 Prediction
+📌 Project Overview
+This project focuses on analyzing and predicting PM2.5 air pollution levels in Delhi using historical air quality data from 2020–2023.
 
-📌 Overview
+The project combines:
 
-This project analyzes PM2.5 pollution levels in Delhi from 2020 to 2023 using Python and Machine Learning techniques.
+Data preprocessing
 
-The project includes:
-- Data cleaning
-- Exploratory Data Analysis (EDA)
-- Visualization
-- Trend analysis
-- Correlation analysis
-- Prediction modeling
+Exploratory Data Analysis (EDA)
 
-🎯 Objectives
+Feature engineering
 
-- Understand PM2.5 pollution trends in Delhi
-- Identify seasonal pollution patterns
-- Analyze correlations between pollutants
-- Build predictive models for air quality forecasting
+Machine Learning modeling
 
-🛠️ Technologies Used
+Explainable AI (SHAP analysis)
 
-Python
+to understand pollution trends and forecast PM2.5 concentration levels.
 
-Jupyter Notebook
+🎯 Goals of the Project
 
-Pandas
 
-NumPy
+## Objectives
 
-Matplotlib
+- Analyze PM2.5 pollution trends in Delhi
+- Understand AQI distribution and pollution severity
+- Detect anomalies and outliers in AQI data
+- Build a machine learning model for PM2.5 prediction
+- Identify the most influential pollution-related features
+- Improve interpretability using SHAP explainability analysis
+- 
+⚙️ What I did-
 
-Seaborn
+🔹 1. Data Collection & Preprocessing
+Markdown
 
-Scikit-learn
+- Collected Delhi air quality data from 2020–2023
+- Cleaned missing and inconsistent values
+- Performed feature engineering using lag variables
+- Prepared time-series based input features
+🔹 2. Exploratory Data Analysis (EDA)
+Analyzed:
 
-📊 Project Workflow
+AQI distribution
 
-1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis
-4. Visualization
-5. Feature Engineering
-6. Model Training
-7. Performance Evaluation
-8. Conclusion
+Pollution trends
 
+Outliers
+
+Statistical behavior of PM2.5
+
+Visualizations helped identify:
+
+High pollution periods
+
+Seasonal concentration patterns
+
+Extreme AQI conditions
+
+🔹 3. Feature Engineering
+Created lag-based features such as:
+
+pm2_5_lag1
+
+pm10_lag1
+
+no2_lag1
+
+so2_lag1
+
+hour
+
+etc.
+
+This improved time-series prediction performance.
+
+🔹 4. Machine Learning Modeling
+
+- Trained an XGBoost regression model
+- Used historical pollutant values to predict PM2.5 concentration
+- Evaluated model performance using observed vs predicted analysis
+This is important because:
+👉 You are not doing simple visualization only.
+👉 This becomes a real ML forecasting project.
+
+🔹 5. Explainable AI (SHAP Analysis)
+This is actually one of the strongest parts of your project.
+
+Performed:
+
+SHAP Feature Importance Analysis
+
+SHAP Summary Visualization
+
+to understand:
+
+Which variables influence PM2.5 most
+
+Positive and negative feature impacts
+
+Model interpretability
+
+📊 Results & Insights
+
+## Results
+
+- AQI values were highly skewed toward unhealthy pollution levels.
+- Severe pollution spikes were observed during multiple periods.
+- Lag-based PM2.5 features had the highest predictive importance.
+- The XGBoost model successfully captured temporal PM2.5 patterns.
+- SHAP analysis revealed that previous PM2.5 values strongly influenced future concentrations.
+- The model predictions closely followed observed PM2.5 trends.
