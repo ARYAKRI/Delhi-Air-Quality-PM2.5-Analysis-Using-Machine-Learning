@@ -33,12 +33,13 @@ to understand pollution trends and forecast PM2.5 concentration levels.
 ⚙️ What I did-
 
 🔹 1. Data Collection & Preprocessing
-Markdown
 
 - Collected Delhi air quality data from 2020–2023
 - Cleaned missing and inconsistent values
 - Performed feature engineering using lag variables
 - Prepared time-series based input features
+
+
 🔹 2. Exploratory Data Analysis (EDA)
 Analyzed:
 
@@ -85,8 +86,6 @@ This is important because:
 👉 This becomes a real ML forecasting project.
 
 🔹 5. Explainable AI (SHAP Analysis)
-This is actually one of the strongest parts of your project.
-
 Performed:
 
 SHAP Feature Importance Analysis
