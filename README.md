@@ -1,5 +1,7 @@
 🌍 Delhi Air Quality Analysis and PM2.5 Prediction
 
+Machine learning project for Delhi air quality analysis and PM2.5 prediction using XGBoost, time-series feature engineering, and SHAP explainability.
+
 📌 Project Overview
 
 This project focuses on analyzing and predicting PM2.5 air pollution levels in Delhi using historical air quality data from 2020–2023.
